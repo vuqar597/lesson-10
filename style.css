@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+.task{
+    font-family: 'Nunito Sans', sans-serif;*
+}
+.bacg-foto{
+    background-image: url(./sekil1.webp);
+    /* background-position: center; */
+    width: 100%;
+    height: 100vh;
+}
+.james{
+    color:#FFFFFF;
+    display: flex; 
+    justify-content: center;
+    padding-top: 280px; 
+    text-align: center; 
+    font-size: 50px;
+
+}
+.new{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color:#FFFFFF;
+}
+.Colorlib{
+    color:#96bb7c;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border:1.5px solid white;
+    position:relative;
+    top:20px;
+    left: 220px;
+    font-size: 20px;
+}
+.ja{
+    position: absolute;
+    color:azure;
+    font-weight: bold;
+
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 14px;
+    color: white;
+    padding-top:10px;
+    margin-left: 500px;
+}
+a{
+    color: silver;
+}
+a:hover{
+    color:white
+}
+.section-two{
+    display: flex;
+justify-content: center;
+padding-top: 50px;
+}
+.foto2{
+    width: 304px;
+    height: 264px;
+    position: relative;
+}
+.foto3{
+    width: 602px;
+    height: 796px;
+    padding: 50px;
+}
+.portfel{
+    width: 69%;
+    height: 900px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text4{
+    padding-left: 33px;
+    color:#939393;
+    padding-top: 92px;
+    line-height: 22px;
+}
+h2{
+    font-size: 48px;
+    color: black;
+    font-weight: 200;
+}
+.vokalia{
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+.interest1{
+    width: 370px;
+    height: 4px;
+    background-color: silver;
+    position: relative;
+}
+.percent1{
+    width: 320px;
+    height: 4px;
+    position: absolute;
+    background-color: #96bb7c;
+}
+.interest2{
+    width: 370px;
+    height: 4px;
+    background-color:silver;
+}
+.percent2{
+    width: 280px;
+    height: 4px;
+    position: absolute;
+    background-color: #96bb7c;
+}
+.interest3{
+width: 370px;
+height: 4px;
+background-color:silver;
+}
+.percent3{
+    width: 370px;
+    height: 4px;
+    position: absolute;
+    background-color: #96bb7c;
+}
+.interest4{
+width: 370px;
+height: 4px;
+background-color:silver;
+}
+.percent4{
+    width: 250px;
+    height: 4px;
+    position: absolute;
+    background-color: #96bb7c;
+}
+.interest5{
+width: 370px;
+height: 4px;
+background-color:silver;
+}
+.percent5{
+    width: 300px;
+    height: 4px;
+    position: absolute;
+    background-color: #96bb7c;
+}
+.design{
+    color:black;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+.cv ul{
+    display:flex;   
+    padding-top: 40px;
+}
+.list1{
+text-align: center;
+padding-top: 13px;
+border-bottom-right-radius: 30%;
+border-bottom-left-radius: 30%;
+border-top-left-radius: 30%;
+border-top-right-radius: 30%;
+background-color: #96bb7c;
+color: #ffffff;
+font-size: 11px;
+width: 90px;
+height: 49px;
+}
+.list2{
+margin-left: 40px;
+text-align: center;
+padding: 13px 20px;
+/* border-bottom-right-radius: 30%;
+border-bottom-left-radius: 30%;
+border-top-left-radius: 30%;
+border-top-right-radius: 30%; */
+background-color: slategrey;
+color: #ffffff;
+font-size: 11px;
+/* width: 157px;
+height: 49px; */
+}
+.list1:hover{
+    background-color:green;
+}
+.list2:hover{
+    background-color:black;
+}
